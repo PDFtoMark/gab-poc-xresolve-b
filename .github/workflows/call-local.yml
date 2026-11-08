@@ -1,0 +1,5 @@
+name: CallLocal
+on: workflow_dispatch
+jobs:
+  call:
+    uses: ./.github/workflows/outer-b.yml
