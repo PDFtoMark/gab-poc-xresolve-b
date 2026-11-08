@@ -1,0 +1,7 @@
+name: Call
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  call:
+    uses: PDFtoMark/gab-poc-xresolve-a/.github/workflows/outer.yml@main
