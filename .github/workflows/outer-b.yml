@@ -1,0 +1,6 @@
+name: OuterB
+on:
+  workflow_call:
+jobs:
+  inner:
+    uses: ./.github/workflows/inner-b.yml
